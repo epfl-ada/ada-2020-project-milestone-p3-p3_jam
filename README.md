@@ -23,7 +23,7 @@ It is a well-known marketing belief that users are more active on social media d
   Afterwards, we need to retrieve the national holidays of each country, or of a selection of countries. There are two options that we could use: either use an API, or an already existing database (e.g. scraping from Wikipedia). However, we expect to face significant challenges to get a good quality sample. Some users can't be found anymore, some were suspended and more than half of the total have a null location. That leaves us with nearly a quarter of the whole data from which some locations will not be distinguished by the Place API. We can estimate that we'll have about 3000 users to work with.
 
 **5. Methods:**
-  *Proposed timeline*
+
 
   1) Data collection and preprocessing: we will extend the EgoTimelines dataset with  origin countries, and map the dates in the dataset with national holidays.
 
@@ -33,18 +33,26 @@ It is a well-known marketing belief that users are more active on social media d
 
   4) Identification of correlation between Twitter activity and holidays: we apply reverse engineering to check if other spikes in activity can be matched to the presence of a holiday. We will back this assumption with statistical analyses.
 
+**6. Proposed timeline*:*
 
-**6. Organization within the team:**
-  *A list of internal milestones up until project milestone P4. Add here a sketch of your planning for the next project milestone.*
-
-  - Step 1 (data collection and preprocessing) -- Deadline 3/12 // Adina
-  - Step 2 (Analysis of general activity during holidays) -- Deadline 6/12 // Janody + Marcus
-  - Step 3 (Analysis of activity by country) -- Deadline 11/12 // Marcus + Adina
-  - Step 4 (Correlation between Twitter activity and holidays) -- Deadline 16/12 // Janody
-  - Preparation of deliverables -- Deadline 18/12 //All
+  - Step 1 (data collection and preprocessing) -- Deadline 3/12 
+  - Step 2 (Analysis of general activity during holidays) -- Deadline 6/12 
+  - Step 3 (Analysis of activity by country) -- Deadline 11/12 
+  - Step 4 (Correlation between Twitter activity and holidays) -- Deadline 16/12 
+  - Preparation of deliverables -- Deadline 18/12 
       * Report/datastory
       * Video
       * Clean final code
 
-**7. Questions for TAs (optional):**
+**7. Organization within the team:**
+  *A list of internal milestones up until project milestone P4. Add here a sketch of your planning for the next project milestone.*
+
+  - Step 1 (data collection and preprocessing) -- Adina
+  - Step 2 (Analysis of general activity during holidays) -- Janody + Marcus
+  - Step 3 (Analysis of activity by country) -- Marcus + Adina
+  - Step 4 (Correlation between Twitter activity and holidays) -- Janody
+  - Preparation of deliverables -- All
+
+
+**8. Questions for TAs (optional):**
   Add here any questions you have for us related to the proposed project.
