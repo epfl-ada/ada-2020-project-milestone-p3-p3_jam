@@ -33,7 +33,7 @@ It is a well-known marketing belief that users are more active on social media d
 
   4) Identification of correlation between Twitter activity and holidays: we apply reverse engineering to check if other spikes in activity can be matched to the presence of a holiday. We will back this assumption with statistical analyses.
 
-**6. Proposed timeline*:*
+**6. Proposed timeline*:**
 
   - Step 1 (data collection and preprocessing) -- Deadline 3/12 
   - Step 2 (Analysis of general activity during holidays) -- Deadline 6/12 
