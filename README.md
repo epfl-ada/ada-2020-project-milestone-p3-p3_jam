@@ -1,19 +1,19 @@
-**1.Title:** It's beginning to look a lot like #Christmas
+**1. Title:** It's beginning to look a lot like #Christmas
 
-**2.Abstract:**
+**2. Abstract:**
   *A 150 word description of the project idea, goals, datasets used. What's the motivation behind your project? How do you propose to extend the analysis from the paper? What story would you like to tell, and why?*
 
 It is a well-known marketing belief that users are more active on social media during major holidays (e.g. Christmas, New Year), and advertisements are carefully planned to target these special days. Following the replication strategy of the paper, we attempt to replicate the statement that people tweet more on holidays. To do so, we use the paper's EgoTimelines dataset, that we augment with information on origin countries collected with the Twitter API, and corresponding national and international holidays. We want to confirm or infirm this belief, and identify recurrent patterns among different countries.
 
 
-**3.Research Questions:**
+**3. Research Questions:**
   *A list of research questions you would like to address during the project.*
 
   - Do users tweet more during holidays?
   - Do users from different countries tweet more during their specific holidays?
   - Are there any meaningful patterns that could indicate a correlation between a nation's activity on Twitter and its holidays?
 
-**4.Proposed dataset:**
+**4. Proposed dataset:**
   *List the dataset(s) you want to use, and some ideas on how you expect to get, manage, process, and enrich it/them. Show us that you've read the docs and some   examples, and that you have a clear idea on what to expect. Discuss data size and format if relevant. It is your responsibility to check that what you propose is feasible given the datasets at hand.*
 
   The proposed dataset is EgoTimelines which contains 17244 unique egoIDs. There is already a lot of material to answer the first question: since each row in this dataset describes a tweet, we know each of these egos posted at least once.
@@ -34,14 +34,17 @@ It is a well-known marketing belief that users are more active on social media d
   4) Identification of correlation between Twitter activity and holidays: we apply reverse engineering to check if other spikes in activity can be matched to the presence of a holiday. We will back this assumption with statistical analyses.
 
 
-**6.Organization within the team:**
+**6. Organization within the team:**
   *A list of internal milestones up until project milestone P4. Add here a sketch of your planning for the next project milestone.*
 
-  - Step 1 (data collection and preprocessing) -- Deadline 3/12
-  - Step 2 (Analysis of general activity during holidays) -- Deadline 6/12
-  - Step 3 (Analysis of activity by country) -- Deadline 11/12
-  - Step 4 (Correlation between Twitter activity and holidays) -- Deadline 16/12
-  - Preparation of deliverables -- Deadline 18/12
+  - Step 1 (data collection and preprocessing) -- Deadline 3/12 // Adina
+  - Step 2 (Analysis of general activity during holidays) -- Deadline 6/12 // Janody + Marcus
+  - Step 3 (Analysis of activity by country) -- Deadline 11/12 // Marcus + Adina
+  - Step 4 (Correlation between Twitter activity and holidays) -- Deadline 16/12 // Janody
+  - Preparation of deliverables -- Deadline 18/12 //All
+      * Report/datastory
+      * Video
+      * Clean final code
 
-**7.Questions for TAs (optional):**
+**7. Questions for TAs (optional):**
   Add here any questions you have for us related to the proposed project.
