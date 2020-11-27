@@ -1488,8 +1488,7 @@
 20083725	Buenos Aires, Argentinien
 201124745	Vila Velha / ES
 201170312	Heliopolis, Cairo Egypt
-20133203	Lichfield, 
-UK
+20133203	Lichfield, UK
 201504846	Midwest
 201838845	\u00dcT: 43.513561, -79.688982
 202056612	Dubai, United Arab Emirates
@@ -3184,8 +3183,7 @@ UK
 355011665	Tangerang
 355155487	São Paulo
 35524122	Phoenix, AZ
-355521207	leiecster
-35563	Austin, TX
+355521207	leiecster 35563 Austin, TX
 355750065	Newark, NJ
 356038323	Nouakchott
 356040111	Swaaaggiin'.
